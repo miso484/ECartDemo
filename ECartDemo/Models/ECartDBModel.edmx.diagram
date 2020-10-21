@@ -5,8 +5,10 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="472919d3ff7a44b2937c75d838bb6e02" Name="Diagram1">
-        <EntityTypeShape EntityType="ECartDBModel.Category" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ECartDBModel.Item" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ECartDBModel.Category" Width="1.5" PointX="1.25" PointY="0.5" />
+        <EntityTypeShape EntityType="ECartDBModel.Item" Width="1.5" PointX="3.25" PointY="0.5" />
+        <EntityTypeShape EntityType="ECartDBModel.OrderDetail" Width="1.5" PointX="5.25" PointY="0.5" />
+        <EntityTypeShape EntityType="ECartDBModel.Order" Width="1.5" PointX="7.375" PointY="1" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
